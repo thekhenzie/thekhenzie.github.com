@@ -1,0 +1,17 @@
+<nav id="navbar">
+  <div class="container">
+      <ul>
+          <li><a [routerLink]="['']">Home</a></li>
+          <li><a [routerLink]="['/pokemon']">Pokemon</a></li>
+          <li><a [routerLink]="['/books']">Books</a></li>
+          <li><a [routerLink]="['/students']">Students</a></li>
+      </ul>
+  </div>
+</nav>
+
+<section id="section">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</section>
+
